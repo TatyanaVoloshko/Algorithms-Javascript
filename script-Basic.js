@@ -1,32 +1,26 @@
 //Monday: JS Basic
 
 // 1. Print 1 - 135
-// let num = []
 
-// for (let i = 0; i < 135; i += 1) {
-//     console.log (num.push(i));
+// for (let i = 0; i <= 135; i += 1) {
+//     console.log(i);
 // }
- 
 // ====================================
 
 // 2. Print Odd Numbers 1 - 135
 
-// const num = []
-
 // for (let i = 0; i <= 135; i++) {
 //     if (i % 2 !== 0) {
-//         num.push(i)
+//         console.log(i)
 //     }
 // }
 
-// console.log(num)
 // ====================================
 
 
 // 3. Sum of Printed Numbers
 
 // let sum = 0
-// let result = ''
 
 // for (let i = 0; i <= 135; i += 1) {
 //     sum += i
@@ -51,8 +45,8 @@
 
 // for (num of X) {
     
-//     if (Math.max(num) > maxNum) {
-//         maxNum = Math.max(num)
+//     if (num>maxNum) {
+//         maxNum = num
 //     }
 // }
 
@@ -90,7 +84,7 @@
 
 // console.log(X)
 
-// ==============================================
+// ============================================
 
 
 // 8. Number to String
@@ -101,7 +95,7 @@
     
 //     if (X[i] < 0) {
 
-//         X.splice(i, 1, 'sting')
+//         X[i] = 'sting'
 
 //     }
 // }
