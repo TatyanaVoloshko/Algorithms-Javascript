@@ -95,16 +95,16 @@
 
 // 6. Communist Censorship
 
-let X = [["Man", "I", "Love", "The", "Matrix", "Program"]];
+// let X = [["Man", "I", "Love", "The", "Matrix", "Program"]];
 
-function changeWord(arr, word) {
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr[i].length; j++) {
-        if (arr[i][j] === word) {
-        arr[i][j] = "*".repeat(word.length);
-      }
-    }
-  }
-  return arr;
-}
-console.log(changeWord(X, "Matrix"));
+// function changeWord(arr, word) {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         if (arr[i][j] === word) {
+//         arr[i][j] = "*".repeat(word.length);
+//       }
+//     }
+//   }
+//   return arr;
+// }
+// console.log(changeWord(X, "Matrix"));
