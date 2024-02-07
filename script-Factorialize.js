@@ -1,3 +1,12 @@
+//- create function Factorialize with parametr n
+//- create variable a=1
+//- sort number from 1 to n
+//- create variable c = a*i
+//- equate a to c
+//- return a outside the loop
+//- call function Factorialize
+
+
 let Factorialize = (n) => {
     let a = 1;
 
