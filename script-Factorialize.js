@@ -18,4 +18,5 @@ let Factorialize = (n) => {
     return a
 }
 
-console.log(Factorialize(20)); 
+console.log(Factorialize(20));
+
