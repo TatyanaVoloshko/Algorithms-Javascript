@@ -10,8 +10,7 @@ function largestOfFour(arr) {
   let newArr = [];
 
   for (i of arr) {
-    let numArr = i;
-    let largestNum = numArr[0];
+    let largestNum = i[0];
 
     for (num of i) {
       if (num > largestNum) {
@@ -33,3 +32,13 @@ console.log(
     [1000, 1001, 857, 1],
   ])
 );
+
+// function takes an array as parametr
+// define empty array
+// for loop to iterate through the main array
+// variable to hold the max number
+// for loop to iterate throught the subarrais
+// condition to check if max less than the current subarray element
+// if yes max = current element
+// add the bigest number to the empty array
+// return the new array
