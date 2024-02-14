@@ -7,16 +7,16 @@
 //- call function Factorialize
 
 
-let Factorialize = (n) => {
-    let a = 1;
+// let Factorialize = (n) => {
+//     let a = 1;
 
-    for (let i = 1; i <= n; i += 1) {
-        let c = a * i
-        a = c
-    }
+//     for (let i = 1; i <= n; i += 1) {
+//         let c = a * i
+//         a = c
+//     }
 
-    return a
-}
+//     return a
+// }
 
-console.log(Factorialize(20));
+// console.log(Factorialize(20));
 

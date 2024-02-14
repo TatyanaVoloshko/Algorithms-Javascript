@@ -1,17 +1,17 @@
-var checkPalindrome = function (word) {
-    var inputWord = word;
-    var checkString = inputWord.split(" ").join("").toLowerCase();
-    for (var i = 0; i < checkString.length / 2; i++) {
+// var checkPalindrome = function (word) {
+//     var inputWord = word;
+//     var checkString = inputWord.split(" ").join("").toLowerCase();
+//     for (var i = 0; i < checkString.length / 2; i++) {
     
-        if (checkString[i] != checkString[checkString.length - i - 1]) {
-      return false;
-    }
-  }
-  return true;
-};
+//         if (checkString[i] != checkString[checkString.length - i - 1]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// };
 
-console.log(checkPalindrome("deified"));
-console.log(checkPalindrome("reiscar"));
+// console.log(checkPalindrome("deified"));
+// console.log(checkPalindrome("reiscar"));
 
 
 // function take one string parametr

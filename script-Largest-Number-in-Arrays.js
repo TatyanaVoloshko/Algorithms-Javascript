@@ -6,32 +6,32 @@
 // Remember, you can iterate through an array with a simple for loop,
 // and access each member with array syntax arr[i].
 
-function largestOfFour(arr) {
-  let newArr = [];
+// function largestOfFour(arr) {
+//   let newArr = [];
 
-  for (i of arr) {
-    let largestNum = i[0];
+//   for (i of arr) {
+//     let largestNum = i[0];
 
-    for (num of i) {
-      if (num > largestNum) {
-        largestNum = num;
-      }
-    }
+//     for (num of i) {
+//       if (num > largestNum) {
+//         largestNum = num;
+//       }
+//     }
 
-    newArr.push(largestNum);
-  }
+//     newArr.push(largestNum);
+//   }
 
-  return newArr;
-}
+//   return newArr;
+// }
 
-console.log(
-  largestOfFour([
-    [4, 5, 3, 1],
-    [13, 27, 18, 26],
-    [32, 35, 37, 39],
-    [1000, 1001, 857, 1],
-  ])
-);
+// console.log(
+//   largestOfFour([
+//     [4, 5, 3, 1],
+//     [13, 27, 18, 26],
+//     [32, 35, 37, 39],
+//     [1000, 1001, 857, 1],
+//   ])
+// );
 
 // function takes an array as parametr
 // define empty array
