@@ -7,7 +7,7 @@
 
 
 // define the function with parametr string
-//  change string to arr with lower letters
+//  convert string to arr with lower letters
 //  for loop to iterate through the arr
 //  change first element to upperCase
 //  return newArr with connect element
@@ -23,3 +23,5 @@ function titleCase(string) {
 }
 
 console.log(titleCase("I'm a little tea pot"));
+
+
