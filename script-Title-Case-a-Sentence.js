@@ -12,16 +12,16 @@
 //  change first element to upperCase
 //  return newArr with connect element
 
-function titleCase(string) {
-  let newArr = string.toLowerCase().split(" ");
+// function titleCase(string) {
+//   let newArr = string.toLowerCase().split(" ");
 
-  for (let i = 0; i < newArr.length; i++) {
-    newArr[i] = newArr[i][0].toUpperCase() + newArr[i].slice(1);
-  }
+//   for (let i = 0; i < newArr.length; i++) {
+//     newArr[i] = newArr[i][0].toUpperCase() + newArr[i].slice(1);
+//   }
 
-  return newArr.join(" ");
-}
+//   return newArr.join(" ");
+// }
 
-console.log(titleCase("I'm a little tea pot"));
+// console.log(titleCase("I'm a little tea pot"));
 
 
