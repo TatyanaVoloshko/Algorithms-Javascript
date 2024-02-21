@@ -6,7 +6,7 @@
 // For this algorithm, you can use the split() method.
 
 
-// define the function with parametr string
+// define the function with parameter string
 //  convert string to arr with lower letters
 //  for loop to iterate through the arr
 //  change first element to upperCase
@@ -23,5 +23,4 @@
 // }
 
 // console.log(titleCase("I'm a little tea pot"));
-
 
